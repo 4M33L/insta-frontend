@@ -12,6 +12,7 @@ const RegisterForm = () => {
       <FormInput name="email" label="Email" type="email" required/>
       <FormPasswordInput name="password" label="Password" required/>
       <Button className={"mt-4"} text={"Register"} type={"submit"}/>
+      <Button className={"mt-4"} type={"submit"}>Register</Button>
     </Form>
   )
 }
